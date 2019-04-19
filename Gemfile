@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 gem "sinatra"
-gem 'json', '~> 1.8'
+gem 'json', '>= 1.8'
 gem "activerecord", '<= 5.1'
 gem "sinatra-activerecord"
 gem "rake"
