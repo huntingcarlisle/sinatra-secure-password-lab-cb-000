@@ -12,6 +12,7 @@ gem "capybara"
 gem "pry"
 gem 'sqlite3', '~> 1.3.6'
 gem 'shotgun'
+gem 'json', '~> 1.8'
 
 group :development do
   gem "tux"
