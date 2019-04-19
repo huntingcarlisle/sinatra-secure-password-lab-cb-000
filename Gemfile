@@ -2,6 +2,7 @@
 source "https://rubygems.org"
 
 gem "sinatra"
+gem 'json', '~> 1.8'
 gem "activerecord", '<= 5.1'
 gem "sinatra-activerecord"
 gem "rake"
@@ -12,7 +13,7 @@ gem "capybara"
 gem "pry"
 gem 'sqlite3', '~> 1.3.6'
 gem 'shotgun'
-gem 'json', '~> 1.8'
+
 
 group :development do
   gem "tux"
